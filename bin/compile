@@ -77,7 +77,7 @@ if [ ! -f "$SBT_BINDIR"/"$SBT_JAR" ]; then
   ## clean up any old versions
   /bin/rm -f sbt sbt-launch-*.jar || true
 
-  echo "-----> Building app with sbt v0.11.0"
+  echo "-----> Building app with sbt v0.13.0"
   curl --silent --max-time 60 -O --location $SBT_URL
 
   ## some of the downloads don't have the version in the name,
